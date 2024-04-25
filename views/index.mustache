@@ -10,10 +10,13 @@
 
     <title>Projeto CMS</title>
     </head>
-    <body>
-        <p>Login:</p>
-        <input></input>
-        <p>Senha:</p>
-        <input></input>
+      <body>
+        <form action="/login" method="POST">
+          <p>Login:</p>
+          <input type="text" name="usuario">
+          <p>Senha:</p>
+          <input type="password" name="senha">
+          <button type="submit">Entrar</button>
+        </form>
     </body>
 </html>
